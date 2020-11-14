@@ -1,6 +1,7 @@
 import React from 'react';
 
 class BadgeForm extends React.Component {
+<<<<<<< HEAD
   state = {
   };
 
@@ -10,6 +11,8 @@ class BadgeForm extends React.Component {
     });
   };*/
 
+=======
+>>>>>>> 7ad536f94341d1cd0e2f9b470b3dee61de11345e
   handleClick = e => {
     console.log('Button was clicked');
   };
@@ -33,7 +36,11 @@ class BadgeForm extends React.Component {
               className="form-control"
               type="text"
               name="firstName"
+<<<<<<< HEAD
               value={this.state.firstName}
+=======
+              value={this.props.formValues.firstName}
+>>>>>>> 7ad536f94341d1cd0e2f9b470b3dee61de11345e
             />
           </div>
 
@@ -44,7 +51,11 @@ class BadgeForm extends React.Component {
               className="form-control"
               type="text"
               name="lastName"
+<<<<<<< HEAD
               value={this.state.lastName}
+=======
+              value={this.props.formValues.lastName}
+>>>>>>> 7ad536f94341d1cd0e2f9b470b3dee61de11345e
             />
           </div>
 
@@ -55,7 +66,11 @@ class BadgeForm extends React.Component {
               className="form-control"
               type="email"
               name="email"
+<<<<<<< HEAD
               value={this.state.email}
+=======
+              value={this.props.formValues.email}
+>>>>>>> 7ad536f94341d1cd0e2f9b470b3dee61de11345e
             />
           </div>
 
@@ -66,7 +81,11 @@ class BadgeForm extends React.Component {
               className="form-control"
               type="text"
               name="jobTitle"
+<<<<<<< HEAD
               value={this.state.jobTitle}
+=======
+              value={this.props.formValues.jobTitle}
+>>>>>>> 7ad536f94341d1cd0e2f9b470b3dee61de11345e
             />
           </div>
 
@@ -77,7 +96,11 @@ class BadgeForm extends React.Component {
               className="form-control"
               type="text"
               name="twitter"
+<<<<<<< HEAD
               value={this.state.twitter}
+=======
+              value={this.props.formValues.twitter}
+>>>>>>> 7ad536f94341d1cd0e2f9b470b3dee61de11345e
             />
           </div>
 
@@ -90,4 +113,8 @@ class BadgeForm extends React.Component {
   }
 }
 
+<<<<<<< HEAD
 export default BadgeForm;
+=======
+export default BadgeForm;
+>>>>>>> 7ad536f94341d1cd0e2f9b470b3dee61de11345e
